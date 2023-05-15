@@ -28,7 +28,7 @@ public class RetoV {
                     System.out.println("Tu fecha de nacimento es del día " + diaN + " del mes de enero, por ende, tu signo zodiacal es Acuario.");
                 }
                 //si el valor capturado en la variable diaN es mayor que 31, entonces:
-                if (diaN > 31){
+                else{
                     System.out.println("El día ingresado es inválido");
                 }
             //se rompe el caso
@@ -81,7 +81,7 @@ public class RetoV {
                 if (diaN >= 21 && diaN <= 31) {
                     System.out.println("Tu fecha de nacimento es del día " + diaN + " del mes de mayo, por ende, tu signo zodiacal es Géminis.");
                 }
-                if (diaN > 31){
+                else{
                     System.out.println("El día ingresado es inválido");
                 }
             break;
@@ -94,7 +94,7 @@ public class RetoV {
                 if (diaN >= 21 && diaN <= 31) {
                     System.out.println("Tu fecha de nacimento es del día " + diaN + " del mes de junio, por ende, tu signo zodiacal es Cáncer.");
                 }
-                if (diaN > 31){
+                else{
                     System.out.println("El día ingresado es inválido");
                 }
             break;
@@ -107,7 +107,7 @@ public class RetoV {
                 if (diaN >= 23 && diaN <= 31) {
                     System.out.println("Tu fecha de nacimento es del día " + diaN + " del mes de julio, por ende, tu signo zodiacal es Leo.");
                 }
-                if (diaN > 31){
+                else{
                     System.out.println("El día ingresado es inválido");
                 }
             break;
@@ -120,7 +120,7 @@ public class RetoV {
                 if (diaN >= 24 && diaN <= 31) {
                     System.out.println("Tu fecha de nacimento es del día " + diaN + " del mes de agosto, por ende, tu signo zodiacal es Virgo.");
                 }
-                if (diaN > 31){
+                else{
                     System.out.println("El día ingresado es inválido");
                 }
             break;
@@ -133,7 +133,7 @@ public class RetoV {
                 if (diaN >= 23 && diaN <= 31) {
                     System.out.println("Tu fecha de nacimento es del día " + diaN + " del mes de septiembre, por ende, tu signo zodiacal es Libra.");
                 }
-                if (diaN > 31){
+                else{
                     System.out.println("El día ingresado es inválido");
                 }
             break;
@@ -146,7 +146,7 @@ public class RetoV {
                 if (diaN >= 24 && diaN <= 31) {
                     System.out.println("Tu fecha de nacimento es del día " + diaN + " del mes de octubre, por ende, tu signo zodiacal es Escorpio.");
                 }
-                if (diaN > 31){
+                else{
                     System.out.println("El día ingresado es inválido");
                 }
             break;
@@ -159,7 +159,7 @@ public class RetoV {
                 if (diaN >= 23 && diaN <= 31) {
                     System.out.println("Tu fecha de nacimento es del día " + diaN + " del mes de noviembre, por ende, tu signo zodiacal es Sagitario.");
                 }
-                if (diaN > 31){
+                else{
                     System.out.println("El día ingresado es inválido");
                 }
             break;
@@ -172,7 +172,7 @@ public class RetoV {
                 if (diaN >= 21 && diaN <= 31) {
                     System.out.println("Tu fecha de nacimento es del día " + diaN + " del mes de diciembre, por ende, tu signo zodiacal es Capricornio.");
                 }
-                if (diaN > 31){
+                else{
                     System.out.println("El día ingresado es inválido");
                 }
             break;
